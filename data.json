@@ -1,0 +1,45 @@
+{
+    "user": {
+        "fullName": "Thobani Gwala",
+        "photo": "./Thobani Gwala.jpg"
+    },
+    "city": {
+        "name": "Durban",
+        "photo": "./Durban.jpg",
+        "description": "Durban is also an important port on the Indian Ocean and the gateway to many of South Africa's world-renowned safaris. With its combination of modern attractions and natural beauty, Durban KwaZulu Natal is an ideal destination for travelers looking to experience the best of South African culture and nature."
+    },
+    "foreignLanguage": {
+        "language": "French",
+        "phrases": [
+            {
+                "englishPhrase": "Hi",
+                "foreignLanguage": "Bonjour"
+            },
+            {
+                "englishPhrase": "You look beautiful",
+                "foreignLanguage": "Tu es magnifique"
+            },
+            {
+                "englishPhrase": "Home is the place to be",
+                "foreignLanguage": "La maison est l'endroit où il faut être"
+            }
+        ]
+    },
+    "favouriteSubjects": [
+        {
+            "name": "(241S6ARSA1) AGILE RAPID SKILLS ACQUISITION",
+            "description": "AGILE RAPID SKILLS ACQUISITION: This part of the code likely describes the focus of the course or program. It suggests a curriculum centered on quickly developing skills using agile methodologies. Agile methodologies are popular isofre development and project management for their iterative approach, which emphasizes flexibility and customer feedback. Rapid skills acquisition in this context would imply learning these agile techniques quickly and efficiently, possibly to adapt to changing job requirements or to enhance employability in dynamic sectors like technology and business.",
+            "photo": "./Agile repad skills.jpg"
+        },
+        {
+            "name": "(241S6EBSA1) ENGINEERING BUSINESS SYSTEMS FOR 4IR",
+            "description": "Engineering Business Systems for the Fourth Industrial Revolution (4IR) involves the integration of advanced engineering principles with business practices to optimize and innovate processes, products, and services. This field is particularly relevant as industries adapt to the rapid technological advancements that characterize 4IR, which includes developments in artificial intelligence, robotics, Internet of Things (IoT), and more.",
+            "photo": "./Engineering business system.jpg"
+        },
+        {
+            "name": "(241S6FWDA1) FULL STACK WEB DEVELOPMENT FOR 4IR",
+            "description": "Full Stack Development refers to the comprehensive skill set required to handle both the front-end and back-end aspects of web development. This means a Full Stack Developer is proficient in dealing with databases, servers, systems engineering, and clients.",
+            "photo": "./Full stack development.png"
+        }
+    ]
+}
