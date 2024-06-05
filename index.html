@@ -17,7 +17,7 @@
                 <h1>{{user.fullName}}</h1>
             </div>
             <div class="col s12 m4 center-align">
-              <img src="./Thobani Gwala.jpg" alt="mypic">
+              <img src="{{user.photo}}" alt="mypic">
             </div>
 
         </header>
@@ -25,7 +25,7 @@
             <h2>Durban</h2>
             <div class="row">
                 <div class="col s12 m6">
-                    <img src="./Durban.jpg" alt="Photo of Durban" class="responsive-img">
+                    <img src="{{city.photo}}" alt="Photo of Durban" class="responsive-img">
                 </div>
                 <div class="col s12 m6">
                     <p>{{city.description}}</p>
@@ -63,7 +63,7 @@
                 <div class="row">
                     <h5 class="center-align">{{favouriteSubjects.0.name}}</h5>
                     <p class="col s6">{{favouriteSubjects.0.description}}</p>
-                    <img src="./Agile repad skills.jpg" width="150" alt="{{favouriteSubjects.0.name}}"
+                    <img src="{{favouriteSubjects.0.photo}}" width="150" alt="{{favouriteSubjects.0.name}}"
                         class="images col s6">
                 </div>
             </div>
@@ -71,7 +71,7 @@
                 <div class="row">
                     <h5 class="center-align">{{favouriteSubjects.1.name}}</h5>
                     <p class="col s6 middle">{{favouriteSubjects.1.description}}</p>
-                    <img src="./Engineering business system.jpg" width="150" alt="{{favouriteSubjects.1.name}}"
+                    <img src="{{favouriteSubjects.1.photo}}" width="150" alt="{{favouriteSubjects.1.name}}"
                         class="images col s6 middle-image">
                 </div>
             </div>
@@ -79,7 +79,7 @@
                 <div class="row">
                     <h5 class="center-align">{{favouriteSubjects.2.name}}</h5>
                     <p class="col s6">{{favouriteSubjects.2.description}}</p>
-                    <img src="./Full stack development.png" width="150" alt="{{favouriteSubjects.2.name}}"
+                    <img src="{{favouriteSubjects.2.photo}}" width="150" alt="{{favouriteSubjects.2.name}}"
                         class="images col s6">
                 </div>
             </div>
